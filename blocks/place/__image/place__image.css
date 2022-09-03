@@ -1,0 +1,19 @@
+.place__image {
+    object-fit: contain;
+    object-position: right top;
+    width: 46.8%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 47.3%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+    .place__image {
+      width: 100%;
+      padding-bottom: 32px; 
+    }
+  }
+  

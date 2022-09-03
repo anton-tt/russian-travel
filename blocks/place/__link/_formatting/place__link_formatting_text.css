@@ -1,0 +1,20 @@
+.place__link_formatting_text {
+  color: white; 
+  transition: color 1s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+}
+
+.place__link_formatting_text:hover { 
+    opacity: .5; 
+    transition: 1s; 
+  }
+
+@media screen and (max-width: 510px) {
+  .place__link_formatting_text {
+    line-height: 111%;
+    font-size: 18px;
+  }
+}
